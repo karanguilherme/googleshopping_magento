@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <tabs>
+        <GuilhermeKaran_GoogleShopping>
+            <label>Guilherme Karan</label>
+            <sort_order>10</sort_order>
+        </GuilhermeKaran_GoogleShopping>
+    </tabs>
+    <sections>
+        <guilhermekaran_googleshopping>
+            <label>Google Shopping</label>
+            <tab>mostrarocultarpreco</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <guilhermekaran_googleshopping>
+                    <label>Configurações do Modulo</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <expanded>true</expanded>
+                    <fields>
+
+                        <active>
+                            <label>Ativar Modulo?</label>
+                            <sort_order>0</sort_order>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment>Selecionando a opção sim, sua loja está apta a gerar arquivos estruturados para o
+                                Google Shopping.
+                            </comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <nome_arquivo_xml>
+                            <label>Arquivo XML</label>
+                            <sort_order>1</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <comment>Informe o nome de seu arquivo XML para o Google Shopping.</comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </nome_arquivo_xml>
+                    </fields>
+                </guilhermekaran_googleshopping>
+            </groups>
+        </guilhermekaran_googleshopping>
+    </sections>
+
+</config>
