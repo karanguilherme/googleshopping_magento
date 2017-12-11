@@ -1,0 +1,1 @@
+# googleshopping_magento
